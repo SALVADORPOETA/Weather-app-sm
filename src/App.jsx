@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 
-  const api_key = process.env.NEXT_PUBLIC_APP_ID
+  const api_key = process.env.NEXT_PUBLIC_APP_ID // Test
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${api_key}`
