@@ -3,10 +3,9 @@ import axios from "axios";
 
 function App() {
 
-  const api_key = 'b4072c59e7366eba4106be23b6cf5807'
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${api_key}`
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=b4072c59e7366eba4106be23b6cf5807`
 
   const searchLocation = (event) => {
     if (event.key === 'Enter') {
