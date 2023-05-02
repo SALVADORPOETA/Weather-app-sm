@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 
-function App() {
+function Weather() {
   
   const [data,setData] = useState({})
   const [location, setLocation] = useState('')
@@ -61,4 +61,4 @@ function App() {
   );
 }
 
-export default App;
+export default Weather;
